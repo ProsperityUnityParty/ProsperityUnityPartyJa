@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name for Office</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background-color: #0047AB; color: white; padding: 20px; font-size: 24px; }
+        nav { background: #f4f4f4; padding: 10px; }
+        nav a { margin: 0 15px; text-decoration: none; color: #0047AB; font-weight: bold; }
+        section { padding: 20px; }
+        .donate-btn, .signup-btn { background: #e63946; color: white; padding: 15px 30px; text-decoration: none; font-size: 18px; border-radius: 5px; display: inline-block; margin: 10px; }
+        .donate-btn:hover, .signup-btn:hover { background: #c62828; }
+        footer { background: #0047AB; color: white; padding: 10px; position: relative; bottom: 0; width: 100%; }
+        .form-container { max-width: 500px; margin: auto; text-align: left; }
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background: #0047AB; color: white; padding: 10px; border: none; cursor: pointer; }
+        button:hover { background: #003580; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name for Office</h1>
+        <p>Working for a Better Future</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#policies">Policies</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce yourself, your background, and why you're running for office.</p>
+    </section>
+    
+    <section id="policies">
+        <h2>My Policies</h2>
+        <p>Outline your key policies and vision for the future.</p>
+    </section>
+    
+    <section id="donate">
+        <h2>Support My Campaign</h2>
+        <p>Your donations help us make a difference.</p>
+        <a href="YOUR_DONATION_LINK_HERE" class="donate-btn">Donate Now</a>
+    </section>
+    
+    <section id="volunteer">
+        <h2>Get Involved</h2>
+        <p>Sign up to volunteer and support our campaign.</p>
+        <a href="YOUR_GOOGLE_FORM_LINK_HERE" class="donate-btn">Volunteer</a>
+    </section>
+    
+    <section id="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Sign up for our newsletter to receive campaign updates.</p>
+        <div class="form-container">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit" class="signup-btn">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yourcampaign@email.com</p>
+        <p>Follow us on Social Media:</p>
+        <a href="YOUR_FACEBOOK_LINK">Facebook</a> | 
+        <a href="YOUR_TWITTER_LINK">Twitter</a> | 
+        <a href="YOUR_INSTAGRAM_LINK">Instagram</a>
+        <h3>Contact Us</h3>
+        <div class="form-container">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Paid for by Your Name for Office</p>
+    </footer>
+</body>
+</html>
